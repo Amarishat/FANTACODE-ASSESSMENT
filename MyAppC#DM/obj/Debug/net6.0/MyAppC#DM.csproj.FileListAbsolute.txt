@@ -1,0 +1,15 @@
+C:\Users\Dell\MyAppC#DM\bin\Debug\net6.0\MyAppC#DM.exe
+C:\Users\Dell\MyAppC#DM\bin\Debug\net6.0\MyAppC#DM.deps.json
+C:\Users\Dell\MyAppC#DM\bin\Debug\net6.0\MyAppC#DM.runtimeconfig.json
+C:\Users\Dell\MyAppC#DM\bin\Debug\net6.0\MyAppC#DM.dll
+C:\Users\Dell\MyAppC#DM\bin\Debug\net6.0\MyAppC#DM.pdb
+C:\Users\Dell\MyAppC#DM\obj\Debug\net6.0\MyAppC#DM.csproj.AssemblyReference.cache
+C:\Users\Dell\MyAppC#DM\obj\Debug\net6.0\MyAppC#DM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dell\MyAppC#DM\obj\Debug\net6.0\MyAppC#DM.AssemblyInfoInputs.cache
+C:\Users\Dell\MyAppC#DM\obj\Debug\net6.0\MyAppC#DM.AssemblyInfo.cs
+C:\Users\Dell\MyAppC#DM\obj\Debug\net6.0\MyAppC#DM.csproj.CoreCompileInputs.cache
+C:\Users\Dell\MyAppC#DM\obj\Debug\net6.0\MyAppC#DM.dll
+C:\Users\Dell\MyAppC#DM\obj\Debug\net6.0\refint\MyAppC#DM.dll
+C:\Users\Dell\MyAppC#DM\obj\Debug\net6.0\MyAppC#DM.pdb
+C:\Users\Dell\MyAppC#DM\obj\Debug\net6.0\MyAppC#DM.genruntimeconfig.cache
+C:\Users\Dell\MyAppC#DM\obj\Debug\net6.0\ref\MyAppC#DM.dll

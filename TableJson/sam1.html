@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <!-- CSS - styling -->
+
+    <style>
+        th {
+            color: #fff;
+            border: solid 1px #ddd;
+        }
+    </style>
+
+    <!-- HTML -->
+    <table class="table table-striped">
+        <tr class="bg-info">
+            <th>Name</th>
+            <th>Age</th>
+            <th>Gender</th>
+        </tr>
+
+        <tbody id="myTable">
+
+        </tbody>
+    </table>
+
+    <!-- JS -->
+    <script>
+        var myArray = [{
+            "name": "Ryan Schuman",
+            "age": 5,
+            "gender": "Male"
+        }, {
+            "name": "Mona Reese",
+            "age": 34,
+            "gender": "Female"
+        }, {
+            "name": "Tyler Lawson",
+            "age": 14,
+            "gender": "Male"
+        }, {
+            "name": "Tess Mallin",
+            "age": 25,
+            "gender": "Female"
+        }, {
+            "name": "Jerry Parkinson",
+            "age": 50,
+            "gender": "Male"
+        }, {
+            "name": "Shirley Walters",
+            "age": 31,
+            "gender": "Female"
+        }, {
+            "name": "Nina Joseph",
+            "age": 17,
+            "gender": "Female"
+        }, {
+            "name": "Vera Daniel",
+            "age": 45,
+            "gender": "Female"
+        }, {
+            "name": "Simon Osborne",
+            "age": 32,
+            "gender": "Male"
+        }, {
+            "name": "Avery Hawkins",
+            "age": 10,
+            "gender": "Male"
+        }, {
+            "name": "Marvin Collins",
+            "age": 22,
+            "gender": "Male"
+        }]
+
+        buildTable(myArray)
+
+
+
+        function buildTable(data) {
+            var table = document.getElementById('myTable')
+
+            for (var i = 0; i < data.length; i++) {
+                var row = `<tr>
+                                <td>${data[i].name}</td>
+                                <td>${data[i].age}</td>
+                                <td>${data[i].gender}</td>
+                          </tr>`
+                table.innerHTML += row
+
+
+            }
+        }
+    </script>
+</body>
+
+</html>
